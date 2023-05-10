@@ -1,0 +1,21 @@
+Deployment => npm run build =>https://www.npmjs.com/package/serve => serve -s build
+
+// Static Deployment
+------------------------
+https://surge.sh/ => cd to project => surge => https://small-ecommerce.surge.sh
+
+    ==> To Update
+        - npm run build
+        - cd to build
+        - surge
+        - same name to update
+
+
+https://www.netlify.com/
+ => sites
+ => drag and drop
+ => https://small-ecommerce.netlify.app/
+
+ // Continous Deployment
+ ------------------------
+ => upload to github
